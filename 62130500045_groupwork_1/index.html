@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataCamp</title>
+
+  <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+  <!-- Using via Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" rel="stylesheet" />
+
+  <!-- https://tailwindcss.com/docs/installation -->
+  <!-- Using Tailwind via CDN -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+  <!-- Vue CDN -->
+  <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+
+<body>
+  <div class="h-screen max-w-full mx-auto bg-gray-900 relative">
+    <div class="flex justify-center">
+      <img class="h2-24 w-24 pt-16" src="./images/dclogo1.png" alt="logo">
+    </div>
+
+    <h1 class="font-sans-serif text-4xl font-bold text-white text-center mt-4">Welcome to DataCamp</h1>
+    <p class="font-sans-serif font-semibold text-white text-center mt-10">What data science language would you like to start with?</p>
+
+    <div class="flex flex-row justify-center items-center space-x-8 mt-4 static">
+      
+      <!-- rlang -->
+      <div class="flax flex-col justify-center items-center">
+          <button class="rounded-md h-64 w-94 bg-white grid grid-cols-1 divide-y divide-gray-200 pt-4 transition transform hover:-translate-y-1 hover:scale-100">
+            <div>
+              <img class="w-20 h-20 rounded-full mx-auto my-10" src="./images/rlang.png" alt="rlang">
+            </div>
+            <div class="flex flex-row">
+              <p class="font-sans-serif font-bold text-xl text-left text-gray-900 ml-8 my-5 ">Learn R</p>
+              <i class="material-icons ml-60 my-6">chevron_right</i>
+            </div>
+          </button>
+      </div>
+
+      <!-- python -->
+      <div class="flax flex-col justify-center items-center">
+          <button class="rounded-md h-64 w-94 bg-white grid grid-cols-1 divide-y divide-gray-200 pt-4 transition transform hover:-translate-y-1 hover:scale-100">
+            <div>
+              <img class="w-20 h-20 rounded-full mx-auto my-10" src="./images/python.png" alt="python">
+            </div>
+            <div class="flex flex-row">
+              <p class="font-sans-serif font-bold text-xl text-left text-gray-900 ml-8 my-5 ">Learn Python</p>
+              <i class="material-icons ml-48 my-6">chevron_right</i>
+            </div>
+         </button>
+      </div>
+
+      <!-- sql -->
+      <div class="flax flex-col justify-center items-center">
+          <button class="rounded-md h-64 w-94 bg-white grid grid-cols-1 divide-y divide-gray-200 pt-4 transition transform hover:-translate-y-1 hover:scale-100">
+            <div>
+              <img class="w-20 h-20 rounded-full mx-auto my-10" src="./images/sql.png" alt="sql">
+            </div>
+            <div class="flex flex-row">
+              <p class="font-sans-serif font-bold text-xl text-left text-gray-900 ml-8 my-5 ">Learn SQL</p>
+              <i class="material-icons ml-56 my-6">chevron_right</i>
+            </div>
+          </button>
+      </div>
+    </div>
+
+      <div class="flex justify-center pt-6">
+          <i class="material-icons fill-current text-yellow-300 pr-2">help_outline</i>
+          <p class="font-sans-serif text-white font-semibold pr-2">Not sure? Try our</p>
+          <p class="font-sans-serif text-blue-500 font-semibold hover:text-white pr-2">Introduction to Data Science</p>
+          <p class="font-sans-serif text-white font-semibold">cours.</p>
+      </div>
+
+      <div class="flex flex-col justify-center absolute bottom-0">
+        <botton class="rounded-none h-20 w-screen bg-gray-800">
+          <div class="flex flex-row m-6 mr-12 float-right"> 
+            <p class="font-sans-serif text-white font-semibold">Not what you're looking for? Skip this survey and go see our</p>
+            <p class="font-sans-serif text-blue-500 font-semibold hover:text-white underline whitespace-pre"> skill tracks</p>
+            <p class="font-sans-serif text-white font-semibold">,</p>
+            <p class="font-sans-serif text-blue-500 font-semibold hover:text-white underline whitespace-pre"> career tracks</p>
+            <p class="font-sans-serif text-white font-semibold">, and</p>
+            <p class="font-sans-serif text-blue-500 font-semibold hover:text-white underline whitespace-pre"> courses</p>
+            <p class="font-sans-serif text-white font-semibold">.</p>
+          </div>
+        </botton>
+      </div>
+      
+    </div>
+  
+</body>
+
+</html>
